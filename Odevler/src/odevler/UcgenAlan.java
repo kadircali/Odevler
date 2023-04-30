@@ -11,10 +11,10 @@ public class UcgenAlan {
         
 
         System.out.print("1.kenarı giriniz:");
-        kenar1 = scan.nextInt();
+        kenar1 = scan.nextDouble();
 
         System.out.print("2.kenarı giriniz:");
-        kenar2 = scan.nextInt();
+        kenar2 = scan.nextDouble();
 
               
         hipotenus = Math.sqrt((kenar1 * kenar1) + (kenar2 * kenar2));
